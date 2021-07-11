@@ -1,2 +1,2 @@
-# msuprograms
+# MSUPrograms
  
