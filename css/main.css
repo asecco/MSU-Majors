@@ -451,7 +451,7 @@ legend {
 * {
   box-sizing: border-box;
 }
-
+/*Main page background */
 .s128 {
   min-height: 100vh;
   display: -ms-flexbox;
@@ -461,7 +461,7 @@ legend {
   -ms-flex-align: center;
       align-items: center;
   font-family: 'Poppins', sans-serif;
-  background: #d8f4fe;
+  background-image: linear-gradient(to bottom right, #45a247, #283c86);
   padding: 15px;
 }
 
