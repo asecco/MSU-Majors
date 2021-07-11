@@ -1,9 +1,11 @@
+<!DOCTYPE html>
 <html>
   <head>
+    <title>MSU Programs</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="author" content="colorlib.com">
+    <meta name="Andrew Secco" content="MSU Programs">
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400" rel="stylesheet" />
     <link href="css/main.css" rel="stylesheet" />
   </head>
@@ -13,7 +15,29 @@
         <div class="inner-form">
           <div class="row">
             <div class="input-field first" id="first">
-              <input class="input" id="inputFocus" type="text" placeholder="Keyword" />
+              <input list="programs" type="text" id="inputFocus" placeholder="Search">
+              <datalist id="programs" style="height:5.1em;overflow:hidden">
+                <option value="Accounting">
+                <option value="Actuarial Science">
+                <option value="Advertising Creative">
+                <option value="Advertising Management">
+                <option value="African American and African Studies">
+                <option value="Agribusiness Management">
+                <option value="Agriculture, Food and Natural Resources Education">
+                <option value="Animal Science">
+                <option value="Anthropology - Bachelor of Arts">
+                <option value="Anthropology - Bachelor of Science">
+                <option value="Apparel and Textile Design">
+                <option value="Apparel and Textiles">
+                <option value="Applied Engineering Sciences">
+                <option value="Arabic">
+                <option value="Art Education">
+                <option value="Art History and Visual Culture">
+                <option value="Arts and Humanities">
+                <option value="Astrophysics">
+                <option value="Athletic Training">
+                <option value="Biochemistry and Molecular Biology">
+              </datalist>
               <button class="clear" id="clear">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                   <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
@@ -21,14 +45,9 @@
               </button>
             </div>
           </div>
-          <div class="row">
-            <div class="input-field second">
-              <input type="search" placeholder="Keyword" />
-            </div>
           </div>
         </div>
       </form>
-    </div>
     <script>
       var btnDelete = document.getElementById('clear');
       var inputFocus = document.getElementById('inputFocus');
@@ -52,7 +71,6 @@
         }
         else
         {
-          // Clicked outside the box
           inputFocus.classList.remove('isFocus')
         }
       });
