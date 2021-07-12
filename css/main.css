@@ -451,9 +451,8 @@ legend {
 * {
   box-sizing: border-box;
 }
-/*Main page background */
 .s128 {
-  min-height: 100vh;
+  min-height: 20vh; /*Select2 box vertical centering */
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -461,7 +460,8 @@ legend {
   -ms-flex-align: center;
       align-items: center;
   font-family: 'Poppins', sans-serif;
-  background-image: linear-gradient(to bottom right, #45a247, #283c86);
+  /*Main page fixed background(Not in use)
+  background-image: linear-gradient(to bottom right, #45a247, #283c86); */
   padding: 15px;
 }
 
@@ -615,4 +615,10 @@ legend {
 
 .s128 form .inner-form .row .input-field.second input:focus::-webkit-input-placeholder {
   opacity: 1;
+}
+
+.banner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
