@@ -1,2 +1,2 @@
-# MSUPrograms
+# MSU Majors
  
