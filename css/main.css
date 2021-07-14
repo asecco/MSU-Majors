@@ -201,6 +201,9 @@ audio:not([controls]) {
  */
 img {
   border-style: none;
+  width: auto;
+	max-width: 100%;
+	height: auto;
 }
 
 /**
@@ -452,7 +455,7 @@ legend {
   box-sizing: border-box;
 }
 .s128 {
-  min-height: 20vh; /*Select2 box vertical centering */
+  min-height: 40vh; /*Select2 box vertical centering */
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -619,6 +622,7 @@ legend {
 
 .banner {
   display: block;
+  margin-top: 80px;
   margin-left: auto;
   margin-right: auto;
 }
