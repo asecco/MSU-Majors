@@ -10,15 +10,9 @@ body {
 		background-size: 400% 400%;
 		animation: gradient 13s ease infinite;
 	}
-	}
-
-@media screen and (max-width: 940px) {
 	.s128 {
 		min-height: 30vh;
 	}
-	}
-
-@media screen and (max-width: 940px) {
 	.banner {
 		display: block;
 		margin-top: 150px;

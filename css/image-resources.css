@@ -15,7 +15,7 @@ border-radius:45%;
 transition: 1s ease;
 }
 
-.homebtn {
+.btn {
   background-color: #4caf50;
   border: none;
   color: white;
@@ -24,6 +24,17 @@ transition: 1s ease;
   cursor: pointer;
 }
 
-.homebtn:hover {
+.btn:hover {
   background-color: RoyalBlue;
 }
+
+@media screen and (max-width: 940px) {
+	.btn {
+    width: 100%;
+    height: 100%;
+	}
+  #resources img {
+    width: 30%;
+    height: 30%;
+  }
+	}
