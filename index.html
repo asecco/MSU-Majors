@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400" rel="stylesheet" defer/>
     <link href="css/main.css" rel="stylesheet" />
     <link href="css/background.css" rel="stylesheet" />
+    <link href="css/preloader.css" rel="stylesheet" />
     <link rel="icon" href="favicon.ico" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" defer/>
@@ -17,6 +18,9 @@
   </head>
   <body>
     <img src="/images/MSUMajors-banner.png" class="banner" alt="MSU Majors" width="512" height="384">
+    <div class="loader-wrapper">
+    <div class="loader">Loading...</div>
+  </div>
     <div class="s128">
       <form>
         <div class="inner-form">
@@ -169,6 +173,9 @@
       $(document).ready(function() {
     $('.js-example-basic-single').select2();
 });
+      $(window).on("load",function(){
+        $(".loader-wrapper").fadeOut("slow");
+      });
     </script>
   </body>
 </html>
