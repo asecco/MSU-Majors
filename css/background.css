@@ -42,3 +42,96 @@ body {
 .select2-selection__arrow {
     height: 50px !important;
 }
+
+#quiz_btn {
+	background-color: RoyalBlue;
+	border: none;
+	color: white;
+	padding: 12px 16px;
+	font-size: 16px;
+	cursor: pointer;
+  }
+
+  .modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+	background-color: #18453B;
+	margin: 5% auto; /* 15% from the top and centered */
+	padding: 20px;
+	border: 3px solid #Fff;
+	width: 60%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+	color: #Fff;
+	float: right;
+	font-size: 35px;
+	font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+  }
+
+  /*Quiz starts*/
+  * {
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+}
+
+.prompt {
+	display: block;
+	font-size: 20px;
+}
+
+.btn {
+	margin: 0 20px 0 20px;
+}
+
+.btn-agree {
+	color: #000;
+	font-weight: bold;
+}
+.btn-agree.active,
+.btn-agree:active,
+.btn-agree:focus,
+.btn-agree:active:focus,
+.btn-agree.active:focus,
+.btn-agree:hover {
+	background-color: transparent;
+}
+
+.bottom {
+	margin-bottom: 100px;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+/* RESULTS */
+.results {
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+/*Quiz ends*/

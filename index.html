@@ -17,6 +17,29 @@
     <script src="/js/main.js"></script>
   </head>
   <body>
+    <button id="quiz_btn"><i class="fa fa-edit"></i> Try our major quiz!</button> <!--Quiz popup-->
+    <div id="myModal" class="modal">
+      <div class="modal-content"> <!--Quiz content-->
+        <span class="close">&times;</span>
+
+        <div class="container text-center">
+          <h1>What should you major in?</h1>
+        </div>
+        <div class="container text-center">
+          <ul id="quiz" class="list-group">
+          </ul>
+        </div>
+
+        <div class="container text-center bottom">
+          <button id="submit-btn" class="btn btn-primary btn-lg">Finish</button>
+          <button id="retake-btn" class="hide btn btn-primary btn-lg">Retake Quiz</button>
+        </div>
+
+        <div class="container text-center results hide">
+          <p id="results"></p>
+        </div>
+      </div>
+    </div> <!--Quiz ends-->
     <img src="/images/MSUMajors-banner.png" class="banner" alt="MSU Majors" width="512" height="384">
     <div class="s128">
       <form>
