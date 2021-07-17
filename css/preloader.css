@@ -15,7 +15,7 @@ display: inline-block;
 width: 30px;
 height: 30px;
 position: relative;
-border: 3px solid #Fff;
+border: 4px solid #Fff;
 animation: loader 2s infinite ease;
 }
 
@@ -23,7 +23,7 @@ animation: loader 2s infinite ease;
 vertical-align: top;
 display: inline-block;
 width: 100%;
-background-color: #451822;
+background-color: #18453B;
 animation: loader-inner 2s infinite ease-in;
 }
 
