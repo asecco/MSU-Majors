@@ -263,7 +263,7 @@ var prompts = [
             <br><br>\
             <b><a href="/pages/English.html" target="_blank" style="color:#451822">English</a></b>\
             <br><br>\
-            <b><a href="/pages/Film-Studies.html" target="_blank">Film Studies</a></b>\
+            <b><a href="/pages/Film-Studies.html" target="_blank" style="color:#451822">Film Studies</a></b>\
             <br><br>\
             <b><a href="/pages/Theatre.html" target="_blank" style="color:#451822">Theatre</a></b>\
             <br><br>\
