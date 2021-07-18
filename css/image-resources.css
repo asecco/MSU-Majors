@@ -38,3 +38,10 @@ transition: 1s ease;
     height: 30%;
   }
 	}
+
+  @media screen and (max-width: 1400px) {
+    #resources img {
+      width: 30%;
+      height: 30%;
+    }
+    }

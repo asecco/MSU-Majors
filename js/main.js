@@ -287,7 +287,7 @@ var prompts = [
 
         } else if(total < -2) { //Social Science
             document.getElementById('results').innerHTML = '<b>Social Science:</b><br><br>\
-            You are someone who enjoys learning about why humans do what they do and are interested in the law and government.\
+            You are someone who enjoys learning about human behavior and the law and how it intersects within society.\
             <br><br>\
             <b>Possible majors for you:</b>\
             <br><br>\
@@ -335,7 +335,7 @@ var prompts = [
 
         } else if(total <= 20) { //Math and Science
             document.getElementById('results').innerHTML = '<b>Math and Science:</b><br><br>\
-            You are someone who enjoys thinking logically and exploring different concepts in the field of hard science.\
+            You are someone who enjoys thinking logically and exploring difficult concepts in-depth.\
             <br><br>\
             <b>Possible majors for you:</b>\
             <br><br>\
