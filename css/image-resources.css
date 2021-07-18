@@ -17,6 +17,7 @@ transition: 1s ease;
 
 .btn {
   background-color: #4caf50;
+  transition: all 0.25s ease;
   border: none;
   color: white;
   padding: 12px 16px;

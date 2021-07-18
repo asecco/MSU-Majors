@@ -133,7 +133,6 @@ var prompts = [
     ]
     
     // This array stores all of the possible values and the weight associated with the value. 
-    // The stronger agreeance/disagreeance, the higher the weight on the user's answer to the prompt.
     var prompt_values = [
     {
         value: 'Agree', 
