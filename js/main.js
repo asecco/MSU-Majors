@@ -269,7 +269,7 @@ var prompts = [
             <br><br>\
             <b><a href="/pages/Digital-Storytelling.html" target="_blank" style="color:#451822">Digital Storytelling</a></b>';
 
-        } else if(total <= -8) { //Education
+        } else if(total <= -10) { //Education
             document.getElementById('results').innerHTML = '<b>Education:</b><br><br>\
             You are someone who enjoys caring for others and sharing your knowledge through teaching.\
             <br><br>\
@@ -317,7 +317,7 @@ var prompts = [
             <br><br>\
             <b><a href="/pages/Communication.html" target="_blank" style="color:#451822">Communication</a></b>';
 
-        } else if(total <= 8) { //Business
+        } else if(total <= 10) { //Business
             document.getElementById('results').innerHTML = '<b>Business:</b><br><br>\
             You are someone who enjoys critical thinking and has strong leadership skills. You like to take the initiative and are a self-motivator.\
             <br><br>\
