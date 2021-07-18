@@ -259,15 +259,15 @@ var prompts = [
             <br><br>\
             <b>Possible majors for you:</b>\
             <br><br>\
-            <a href="/pages/Arts-and-Humanities.html" target="_blank">Arts and Humanities</a>\
+            <b><a href="/pages/Arts-and-Humanities.html" target="_blank" style="color:#451822">Arts and Humanities</a></b>\
             <br><br>\
-            <a href="/pages/English.html" target="_blank">English</a>\
+            <b><a href="/pages/English.html" target="_blank" style="color:#451822">English</a></b>\
             <br><br>\
-            <a href="/pages/Film-Studies.html" target="_blank">Film Studies</a>\
+            <b><a href="/pages/Film-Studies.html" target="_blank">Film Studies</a></b>\
             <br><br>\
-            <a href="/pages/Theatre.html" target="_blank">Theatre</a>\
+            <b><a href="/pages/Theatre.html" target="_blank" style="color:#451822">Theatre</a></b>\
             <br><br>\
-            <a href="/pages/Digital-Storytelling.html" target="_blank">Digital Storytelling</a>';
+            <b><a href="/pages/Digital-Storytelling.html" target="_blank" style="color:#451822">Digital Storytelling</a></b>';
 
         } else if(total <= -8) { //Education
             document.getElementById('results').innerHTML = '<b>Education:</b><br><br>\
@@ -275,15 +275,15 @@ var prompts = [
             <br><br>\
             <b>Possible majors for you:</b>\
             <br><br>\
-            <a href="/pages/Education.html" target="_blank">Education</a>\
+            <b><a href="/pages/Education.html" target="_blank" style="color:#451822">Education</a></b>\
             <br><br>\
-            <a href="/pages/Child-Development.html" target="_blank">Child Development</a>\
+            <b><a href="/pages/Child-Development.html" target="_blank" style="color:#451822">Child Development</a></b>\
             <br><br>\
-            <a href="/pages/Special-Education.html" target="_blank">Special Education</a>\
+            <b><a href="/pages/Special-Education.html" target="_blank" style="color:#451822">Special Education</a></b>\
             <br><br>\
-            <a href="/pages/Social-Work.html" target="_blank">Social Work</a>\
+            <b><a href="/pages/Social-Work.html" target="_blank" style="color:#451822">Social Work</a></b>\
             <br><br>\
-            <a href="/pages/Early-Care-and-Education.html" target="_blank">Early Care and Education</a>';
+            <b><a href="/pages/Early-Care-and-Education.html" target="_blank" style="color:#451822">Early Care and Education</a></b>';
 
         } else if(total < -2) { //Social Science
             document.getElementById('results').innerHTML = '<b>Social Science:</b><br><br>\
@@ -291,15 +291,15 @@ var prompts = [
             <br><br>\
             <b>Possible majors for you:</b>\
             <br><br>\
-            <a href="/pages/Psychology.html" target="_blank">Psychology</a>\
+            <b><a href="/pages/Psychology.html" target="_blank" style="color:#451822">Psychology</a></b>\
             <br><br>\
-            <a href="/pages/Sociology.html" target="_blank">Sociology</a>\
+            <b><a href="/pages/Sociology.html" target="_blank" style="color:#451822">Sociology</a></b>\
             <br><br>\
-            <a href="/pages/Criminal-Justice.html" target="_blank">Criminal Justice</a>\
+            <b><a href="/pages/Criminal-Justice.html" target="_blank" style="color:#451822">Criminal Justice</a></b>\
             <br><br>\
-            <a href="/pages/Political-Science-Prelaw.html" target="_blank">Political Science Prelaw</a>\
+            <b><a href="/pages/Political-Science-Prelaw.html" target="_blank" style="color:#451822">Political Science Prelaw</a></b>\
             <br><br>\
-            <a href="/pages/Philosophy.html" target="_blank">Philosophy</a>';
+            <b><a href="/pages/Philosophy.html" target="_blank" style="color:#451822">Philosophy</a></b>';
 
         } else if(total < 2) { //Hybrid
             document.getElementById('results').innerHTML = '<b>Hybrid:</b><br><br>\
@@ -307,15 +307,15 @@ var prompts = [
             <br><br>\
             <b>Possible majors for you:</b>\
             <br><br>\
-            <a href="/pages/Nursing.html" target="_blank">Nursing</a>\
+            <b><a href="/pages/Nursing.html" target="_blank" style="color:#451822">Nursing</a></b>\
             <br><br>\
-            <a href="/pages/Applied-Engineering-Sciences.html" target="_blank">Applied Engineering Sciences</a>\
+            <b><a href="/pages/Applied-Engineering-Sciences.html" target="_blank" style="color:#451822">Applied Engineering Sciences</a></b>\
             <br><br>\
-            <a href="/pages/Experience-Architecture.html" target="_blank">Experience Architecture</a>\
+            <b><a href="/pages/Experience-Architecture.html" target="_blank" style="color:#451822">Experience Architecture</a></b>\
             <br><br>\
-            <a href="/pages/Marketing.html" target="_blank">Marketing</a>\
+            <b><a href="/pages/Marketing.html" target="_blank" style="color:#451822">Marketing</a></b>\
             <br><br>\
-            <a href="/pages/Communication.html" target="_blank">Communication</a>';
+            <b><a href="/pages/Communication.html" target="_blank" style="color:#451822">Communication</a></b>';
 
         } else if(total <= 8) { //Business
             document.getElementById('results').innerHTML = '<b>Business:</b><br><br>\
@@ -323,15 +323,15 @@ var prompts = [
             <br><br>\
             <b>Possible majors for you:</b>\
             <br><br>\
-            <a href="/pages/Finance.html" target="_blank">Finance</a>\
+            <b><a href="/pages/Finance.html" target="_blank" style="color:#451822">Finance</a></b>\
             <br><br>\
-            <a href="/pages/Accounting.html" target="_blank">Accounting</a>\
+            <b><a href="/pages/Accounting.html" target="_blank" style="color:#451822">Accounting</a></b>\
             <br><br>\
-            <a href="/pages/Human-Resource-Management.html" target="_blank">Human Resource Management</a>\
+            <b><a href="/pages/Human-Resource-Management.html" target="_blank" style="color:#451822">Human Resource Management</a></b>\
             <br><br>\
-            <a href="/pages/Supply-Chain-Management.html" target="_blank">Supply Chain Management</a>\
+            <b><a href="/pages/Supply-Chain-Management.html" target="_blank" style="color:#451822">Supply Chain Management</a></b>\
             <br><br>\
-            <a href="/pages/Management.html" target="_blank">Management</a>';
+            <b><a href="/pages/Management.html" target="_blank" style="color:#451822">Management</a></b>';
 
         } else if(total <= 20) { //Math and Science
             document.getElementById('results').innerHTML = '<b>Math and Science:</b><br><br>\
@@ -339,15 +339,15 @@ var prompts = [
             <br><br>\
             <b>Possible majors for you:</b>\
             <br><br>\
-            <a href="/pages/Mathematics.html" target="_blank">Mathematics</a>\
+            <b><a href="/pages/Mathematics.html" target="_blank" style="color:#451822">Mathematics</a></b>\
             <br><br>\
-            <a href="/pages/Human-Biology.html" target="_blank">Human Biology</a>\
+            <b><a href="/pages/Human-Biology.html" target="_blank" style="color:#451822">Human Biology</a></b>\
             <br><br>\
-            <a href="/pages/Chemistry.html" target="_blank">Chemistry</a>\
+            <b><a href="/pages/Chemistry.html" target="_blank" style="color:#451822">Chemistry</a></b>\
             <br><br>\
-            <a href="/pages/Data-Science.html" target="_blank">Data-Science</a>\
+            <b><a href="/pages/Data-Science.html" target="_blank" style="color:#451822">Data-Science</a></b>\
             <br><br>\
-            <a href="/pages/Zoology.html" target="_blank">Zoology</a>';
+            <b><a href="/pages/Zoology.html" target="_blank" style="color:#451822">Zoology</a></b>';
 
         } else { //Engineering and Technology
             document.getElementById('results').innerHTML = '<b>Engineering and Technology:</b><br><br>\
@@ -355,15 +355,15 @@ var prompts = [
             <br><br>\
             <b>Possible majors for you:</b>\
             <br><br>\
-            <a href="/pages/Mechanical-Engineering.html" target="_blank">Mechanical Engineering</a>\
+            <b><a href="/pages/Mechanical-Engineering.html" target="_blank" style="color:#451822">Mechanical Engineering</a></b>\
             <br><br>\
-            <a href="/pages/Computer-Science.html" target="_blank">Computer Science</a>\
+            <b><a href="/pages/Computer-Science.html" target="_blank" style="color:#451822">Computer Science</a></b>\
             <br><br>\
-            <a href="/pages/Biosystems-Engineering.html" target="_blank">Biosystems Engineering</a>\
+            <b><a href="/pages/Biosystems-Engineering.html" target="_blank" style="color:#451822">Biosystems Engineering</a></b>\
             <br><br>\
-            <a href="/pages/Information-Science.html" target="_blank">Information Science</a>\
+            <b><a href="/pages/Information-Science.html" target="_blank" style="color:#451822">Information Science</a></b>\
             <br><br>\
-            <a href="/pages/Games-and-Interactive-Media.html" target="_blank">Games and Interactive Media</a>';
+            <b><a href="/pages/Computational-Data-Science.html" target="_blank" style="color:#451822">Computational Data Science</a></b>';
         }
     
 
