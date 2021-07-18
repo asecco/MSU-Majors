@@ -32,7 +32,7 @@ window.onclick = function(event) {
 var prompts = [
     {
         prompt: '1) I have interest in the arts, such as theatre or music.',
-        weight: -6,
+        weight: -4,
         class: 'group0'
     },
     {
@@ -62,7 +62,7 @@ var prompts = [
     },
     {
         prompt: '7) I enjoy learning about different cultures and would like to travel the world.',
-        weight: -5,
+        weight: -4,
         class: 'group6'
     },
     {
@@ -87,7 +87,7 @@ var prompts = [
     },
     {
         prompt: '12) I enjoy learning about the human body and would like to heal people',
-        weight: 3,
+        weight: 2,
         class: 'group11'
     },
     {
@@ -102,7 +102,7 @@ var prompts = [
     },
     {
         prompt: '15) As a kid I often took things apart to see how they worked.',
-        weight: 4,
+        weight: 3,
         class: 'group14'
     },
     {
@@ -127,7 +127,7 @@ var prompts = [
     },
     {
         prompt: '20) I would rather be software engineer than a manager.',
-        weight: 3,
+        weight: 2,
         class: 'group19'
     }
     ]
@@ -135,14 +135,29 @@ var prompts = [
     // This array stores all of the possible values and the weight associated with the value. 
     var prompt_values = [
     {
+        value: 'Strongly Agree', 
+        class: 'btn-default btn-agree',
+        weight: 2
+    },
+    {
         value: 'Agree', 
         class: 'btn-default btn-agree',
         weight: 1
     },
     {
-        value: 'Disagree',
+        value: 'Neutral', 
+        class: 'btn-default btn-agree',
+        weight: 0
+    },
+    {
+        value: 'Disagree', 
         class: 'btn-default btn-agree',
         weight: -1
+    },
+    {
+        value: 'Strongly Disagree',
+        class: 'btn-default btn-agree',
+        weight: -2
     },
     ]
     

@@ -124,6 +124,11 @@ body {
 	font-family: 'Poppins', sans-serif;
 }
 
+#submit-btn:hover {
+	background-color: RoyalBlue;
+	transition: all 0.25s ease;
+}
+
 #retake-btn {
 	font-weight: bold;
 	border: none;
@@ -131,6 +136,11 @@ body {
 	font-size: 18px;
 	cursor: pointer;
 	font-family: 'Poppins', sans-serif;
+}
+
+#retake-btn:hover {
+	background-color: RoyalBlue;
+	transition: all 0.25s ease;
 }
 
 .btn-agree {
@@ -144,7 +154,7 @@ body {
 .btn-agree.active:focus,
 .btn-agree:hover {
 	background-color: RoyalBlue;
-	transition: all 0.25s ease
+	transition: all 0.25s ease;
 }
 
 .bottom {
