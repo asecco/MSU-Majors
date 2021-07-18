@@ -44,12 +44,16 @@ body {
 }
 
 #quiz_btn {
-	background-color: RoyalBlue;
+	background-color: #18453B;
 	border: none;
 	color: white;
 	padding: 12px 16px;
 	font-size: 16px;
 	cursor: pointer;
+  }
+
+#quiz_btn:hover {
+	background-color: RoyalBlue;
   }
 
   .modal {

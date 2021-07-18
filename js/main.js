@@ -32,12 +32,12 @@ window.onclick = function(event) {
 var prompts = [
     {
         prompt: '1) I have interest in the arts, such as theatre or music.',
-        weight: -3,
+        weight: -6,
         class: 'group0'
     },
     {
         prompt: '2) In High School I usually preferred math and science over language arts.',
-        weight: 2,
+        weight: 4,
         class: 'group1'
     },
     {
@@ -52,7 +52,7 @@ var prompts = [
     },
     {
         prompt: '5) I am good with numbers and detail-oriented.',
-        weight: 2,
+        weight: 3,
         class: 'group4'
     },
     {
@@ -62,17 +62,17 @@ var prompts = [
     },
     {
         prompt: '7) I enjoy learning about different cultures and would like to travel the world.',
-        weight: -2,
+        weight: -5,
         class: 'group6'
     },
     {
         prompt: '8) I enjoy design and multimedia.',
-        weight: -2,
+        weight: -4,
         class: 'group7'
     },
     {
         prompt: '9) I am interested in engineering and technology and trying to solve everyday problems.',
-        weight: 3,
+        weight: 4,
         class: 'group8'
     },
     {
@@ -87,7 +87,7 @@ var prompts = [
     },
     {
         prompt: '12) I enjoy learning about the human body and would like to heal people',
-        weight: 2,
+        weight: 3,
         class: 'group11'
     },
     {
@@ -96,13 +96,13 @@ var prompts = [
         class: 'group12'
     },
     {
-        prompt: "14) I don't mind being the center of attention.",
+        prompt: "14) I am interested in human behavior.",
         weight: -1,
         class: 'group13'
     },
     {
         prompt: '15) As a kid I often took things apart to see how they worked.',
-        weight: 3,
+        weight: 4,
         class: 'group14'
     },
     {
@@ -117,7 +117,7 @@ var prompts = [
     },
     {
         prompt: '18) I would rather be an accountant than a teacher',
-        weight: 1,
+        weight: 2,
         class: 'group17'
     },
     {
@@ -127,7 +127,7 @@ var prompts = [
     },
     {
         prompt: '20) I would rather be software engineer than a manager.',
-        weight: 2,
+        weight: 3,
         class: 'group19'
     }
     ]
@@ -253,7 +253,7 @@ var prompts = [
         $('.results').removeClass('hide');
         $('.results').addClass('show');
 
-        if(total <= -6) { //Arts and Humanities
+        if(total <= -20) { //Arts and Humanities
             document.getElementById('results').innerHTML = '<b>Arts and Humanities:</b><br><br>\
             You are someone who enjoys being creative and learning new ideas centered around humans and culture.\
             <br><br>\
@@ -269,7 +269,7 @@ var prompts = [
             <br><br>\
             <a href="/pages/Digital-Storytelling.html" target="_blank">Digital Storytelling</a>';
 
-        } else if(total <= -3) { //Education
+        } else if(total <= -8) { //Education
             document.getElementById('results').innerHTML = '<b>Education:</b><br><br>\
             You are someone who enjoys caring for others and sharing your knowledge through teaching.\
             <br><br>\
@@ -285,7 +285,7 @@ var prompts = [
             <br><br>\
             <a href="/pages/Early-Care-and-Education.html" target="_blank">Early Care and Education</a>';
 
-        } else if(total < 0) { //Social Science
+        } else if(total < -2) { //Social Science
             document.getElementById('results').innerHTML = '<b>Social Science:</b><br><br>\
             You are someone who enjoys learning about why humans do what they do and are interested in the law and government.\
             <br><br>\
@@ -301,7 +301,7 @@ var prompts = [
             <br><br>\
             <a href="/pages/Philosophy.html" target="_blank">Philosophy</a>';
 
-        } else if(total == 0) { //Hybrid
+        } else if(total < 2) { //Hybrid
             document.getElementById('results').innerHTML = '<b>Hybrid:</b><br><br>\
             You are someone who is very unique! Unlike the other disciplines, you are not strongly one side or the other and prefer to learn about a wide range of topics.\
             <br><br>\
@@ -317,7 +317,7 @@ var prompts = [
             <br><br>\
             <a href="/pages/Communication.html" target="_blank">Communication</a>';
 
-        } else if(total <= 3) { //Business
+        } else if(total <= 8) { //Business
             document.getElementById('results').innerHTML = '<b>Business:</b><br><br>\
             You are someone who enjoys critical thinking and has strong leadership skills. You like to take the initiative and are a self-motivator.\
             <br><br>\
@@ -333,7 +333,7 @@ var prompts = [
             <br><br>\
             <a href="/pages/Management.html" target="_blank">Management</a>';
 
-        } else if(total <= 6) { //Math and Science
+        } else if(total <= 20) { //Math and Science
             document.getElementById('results').innerHTML = '<b>Math and Science:</b><br><br>\
             You are someone who enjoys thinking logically and exploring different concepts in the field of hard science.\
             <br><br>\
