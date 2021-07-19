@@ -126,7 +126,7 @@ var prompts = [
         class: 'group18'
     },
     {
-        prompt: '20) I would rather be software engineer than a manager.',
+        prompt: '20) I would rather be a software engineer than a manager.',
         weight: 2,
         class: 'group19'
     }
