@@ -11,7 +11,7 @@ body {
 		animation: gradient 13s ease infinite;
 	}
 	.s128 {
-		min-height: 35vh;
+		min-height: 30vh;
 	}
 	.banner {
 		display: block;
