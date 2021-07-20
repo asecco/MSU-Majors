@@ -29,6 +29,10 @@ transition: 1s ease;
   transition: all 0.25s ease;
 }
 
+.zippia {
+  margin-left: -12%;
+}
+
 @media screen and (max-width: 940px) {
 	.btn {
     width: 100%;
@@ -40,7 +44,7 @@ transition: 1s ease;
   }
   .zippia {
     margin-left: -15%;
-    margin-right: -3;
+    margin-right: -3%;
   }
 	}
 
