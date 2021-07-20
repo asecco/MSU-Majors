@@ -75,7 +75,13 @@ body {
 	background-color: rgb(0,0,0); /* Fallback color */
 	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
   }
-  
+
+@media screen and (max-width: 940px) {
+	.modal {
+		width: 120%;
+	}
+}
+
   /* Modal Content/Box */
   .modal-content {
 	background-color: #18453B;
