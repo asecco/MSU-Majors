@@ -153,6 +153,7 @@ body {
 .btn-agree {
 	color: #000;
 	font-weight: bold;
+	margin: 3px;
 }
 .btn-agree.active,
 .btn-agree:active,
@@ -162,6 +163,15 @@ body {
 .btn-agree:hover {
 	background-color: RoyalBlue;
 	transition: all 0.25s ease;
+}
+
+@media screen and (max-width: 940px) {
+	.btn-agree {
+		margin: 4px;
+	}
+	.btn-agree.active {
+		pointer-events: none;
+	}
 }
 
 .bottom {
