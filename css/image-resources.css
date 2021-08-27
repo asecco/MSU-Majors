@@ -24,7 +24,7 @@ footer {
 
 .emailft {  
   position: absolute;
-  top: 30%;
+  top: 27%;
   left: 48.8%;
   display: inline-block;
   margin: -9px;
@@ -40,7 +40,7 @@ footer {
 
 .githubft {  
   position: absolute;
-  top: 34%;
+  top: 31%;
   left: 50%;
   display: inline-block;
   margin: 7px;
@@ -59,6 +59,8 @@ span:hover {
   animation-name: bounce;
   -moz-animation-name: bounce;
 }
+
+/*Footer ends*/
 
 #resources img {
   border: 1px solid #000;
@@ -102,6 +104,18 @@ transition: 1s ease;
   .zippia {
     margin-left: -15%;
     margin-right: -3%;
+  }
+  .githubft {  
+    top: 45%;
+    left: 54%;
+    display: inline-block;
+    margin: -10px;
+  }
+  .emailft { 
+    top: 25%;
+    left: 43%;
+    display: inline-block;
+    margin: -5px;    
   }
 	}
 
