@@ -190,6 +190,12 @@ transition: 1s ease;
   #review_break {
     display: inline;
   }
+  .review_list {
+    font-size: 10vw;
+  }
+  .container text-center {
+    font-size: 10vw;
+  }
 }
 
   /* Modal Content/Box */
