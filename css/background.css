@@ -90,7 +90,7 @@ body {
 	}
 }
 
-@media screen and (min-device-width: 768px) {
+@media screen and (device-width: 768px) {
 	.modal {
 		width: 150%;
     	left: -190px;
