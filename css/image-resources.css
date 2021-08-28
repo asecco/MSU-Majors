@@ -176,15 +176,16 @@ transition: 1s ease;
 
   @media screen and (max-width: 940px) {
 	.modal {
-		width: 100%;
+		width: 112%;
     left: -25px;
 	}
   .modal-content {
     overflow-x: auto;
+    overflow-y: auto;
   }
   #review_btn {
-    width: 50%;
-    height: 13%;
+    width: 40%;
+    height: 12%;
   }
   #review_break {
     display: inline;
