@@ -20,7 +20,7 @@ body {
 		margin-left: auto;
 		margin-right: auto;
 	}
-	#quiz_btn {
+	#modal_btn {
 		width: 100%;
     	height: 100%;
 	}
@@ -48,7 +48,7 @@ body {
     height: 50px !important;
 }
 
-#quiz_btn {
+#modal_btn {
 	background-color: #18453B;
 	transition: all 0.25s ease;
 	border: none;
@@ -59,7 +59,7 @@ body {
 	font-family: 'Poppins', sans-serif;
   }
 
-#quiz_btn:hover {
+#modal_btn:hover {
 	background-color: RoyalBlue;
   }
 
