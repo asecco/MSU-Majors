@@ -198,6 +198,12 @@ transition: 1s ease;
   }
 }
 
+@media screen and (max-width: 1400px) {
+  .modal {
+    left: -140px;
+  }
+}
+
   /* Modal Content/Box */
   .modal-content {
 	background-color: #18453B;
