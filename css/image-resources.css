@@ -75,8 +75,9 @@ transition: 1s ease;
 }
 
 .btn {
-  background-color: #4caf50;
-  border: none;
+  background-color: #18453B;
+  border: 1px solid black;
+  border-radius: 50px;
   color: white;
   padding: 12px 16px;
   font-size: 16px;
@@ -131,7 +132,8 @@ transition: 1s ease;
 #modal_btn {
   background-color: #18453B;
 	transition: all 0.25s ease;
-	border: none;
+  border: 1px solid black;
+  border-radius: 50px;
 	color: white;
 	padding: 12px 16px;
 	font-size: 16px;
@@ -147,7 +149,8 @@ transition: 1s ease;
 
 #review_btn {
 	transition: all 0.25s ease;
-	border: none;
+  border: 1px solid black;
+  border-radius: 50px;
 	color: white;
 	padding: 12px 16px;
 	font-size: 16px;

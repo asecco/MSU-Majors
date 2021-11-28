@@ -51,7 +51,7 @@ body {
 #modal_btn {
 	background-color: #18453B;
 	transition: all 0.25s ease;
-	border: none;
+	border: 1px solid black;
 	color: white;
 	padding: 12px 16px;
 	font-size: 16px;
