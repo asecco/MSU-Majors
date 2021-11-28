@@ -120,13 +120,6 @@ transition: 1s ease;
   }
 	}
 
-  @media screen and (max-width: 1400px) {
-    #resources img {
-      width: 30%;
-      height: 30%;
-    }
-    }
-
 /*Review button and modal content*/
 
 #modal_btn {
@@ -151,13 +144,12 @@ transition: 1s ease;
 	transition: all 0.25s ease;
   border: 1px solid black;
   border-radius: 50px;
-	color: white;
+	color: black;
+  background-color: white;
 	padding: 12px 16px;
 	font-size: 16px;
 	cursor: pointer;
 	font-family: 'Poppins', sans-serif;
-  margin: auto;
-  display: block;
 }
 
 #review_btn:hover {
